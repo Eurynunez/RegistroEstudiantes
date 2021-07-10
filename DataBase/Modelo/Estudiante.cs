@@ -1,0 +1,17 @@
+﻿using System;
+
+namespace DataBase.Modelo
+{
+    public class Estudiante
+    {
+        public int Id { get; set; }
+
+        public string Codigo { get; set; }
+
+        public string Nombre { get; set; }
+
+        public string Apellido { get; set; }
+
+        public string Direccion { get; set; }
+    }
+}
